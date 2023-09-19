@@ -19,6 +19,7 @@
     - [Setup](#setup)
     - [Usage](#usage)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -111,6 +112,16 @@ To run the project:
 > 👤 **Gardimy Charles**
 - GitHub: [@Benson](https://github.com/BenMKT)
 - LinkedIn: [Benson Kiai](https://www.linkedin.com/in/bensonkiai)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **add "join table" for visits.**
+- [ ] **database performance audit.**
+- [ ] **add database schema diagram.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
