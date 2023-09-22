@@ -12,9 +12,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 You can check the Live Demo here](#-you-can-check-the-live-demo-here)
   - [💻 Getting Started ](#-getting-started-)
-  - [💻 Getting Started ](#-getting-started--1)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Usage](#usage)
@@ -49,12 +47,12 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO 
 
-## 🚀 You can check the Live Demo here<a name="live-demo"></a>
+## 🚀 Live Demo here<a name="live-demo"></a>
 
 The live demo will be availabe soon
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
@@ -72,10 +70,6 @@ The live demo will be availabe soon
 - Step 5: If you want to edit this project open it with your favorite text editor.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running cloning this repo `https://github.com/BenMKT/vet_clinic_database.git`.
 
 ### Prerequisites
 
