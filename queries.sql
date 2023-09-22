@@ -48,3 +48,30 @@ BEGIN TRANSACTION;
 UPDATE animals SET weight_kg = 20.4 WHERE name = 'Boarmon';
 SELECT * FROM animals;
 COMMIT;
+
+
+SELECT * FROM owners;
+SELECT* FROM species;
+UPDATE animals SET species_id = CASE WHEN name LIKE '%mon' THEN 2 ELSE 1 END;
+SELECT * FROM animals;
+
+SELECT animals.name FROM animals JOIN owners ON animals.owner_id = owners.id WHERE owners.full_name = 'Melody Pond';
+SELECT animals.name FROM animals JOIN species ON animals.species_id = species.id WHERE species.id = 1;
+SELECT owners.full_name, animals.name FROM owners LEFT JOIN animals ON owners.id = animals.owner_id;
+SELECT animals.name
+  FROM animals
+  JOIN species ON animals.species_id = species.id
+  JOIN owners ON animals.owner_id = owners.id
+  WHERE species.name = 'digimon' AND owners.full_name = 'Jennifer Orwell';
+SELECT animals.name FROM animals
+  JOIN owners ON animals.owner_id = owners.id
+  WHERE owners.full_name = 'Dean Winchester' AND animals.escape_attempts = 0;
+SELECT species.name, COUNT(animals.id) AS animal_count FROM species
+  LEFT JOIN animals ON species.id = animals.species_id
+  GROUP BY species.name;
+SELECT o.full_name AS owner, COUNT(a.id) AS animals
+  FROM owners o
+  JOIN animals a ON o.id = a.owner_id
+  GROUP BY o.full_name
+  ORDER BY animals DESC
+  LIMIT 1;
