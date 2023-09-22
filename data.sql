@@ -32,3 +32,18 @@ INSERT INTO species (name)
 VALUES
 ('pokemon'),
 ('digimon');
+
+UPDATE animals
+SET owner_id = (
+  SELECT o.id
+  FROM owners o
+  WHERE o.full_name = CASE
+    WHEN animals.name = 'Agumon' THEN 'Sam Smith'
+    WHEN animals.name IN ('Gabumon', 'Pikachu') THEN 'Jennifer Orwell'
+    WHEN animals.name IN ('Devimon', 'Plantmon') THEN 'Bob'
+    WHEN animals.name IN ('Charmander', 'Squirtle', 'Blossom') THEN 'Melody Pond'
+    WHEN animals.name IN ('Angemon', 'Boarmon') THEN 'Dean Winchester'
+    ELSE NULL
+  END
+);
+SELECT * FROM animals;
