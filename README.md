@@ -26,7 +26,7 @@
 
 # 📖  create animals table! <a name="about-project"></a>
 
-**create-animals-table**  uses relational database to create the initial data structure for a vet clinic and created a table to store animals' information, insert some data into it, and query it whilst applying knowledge of aggregate functions and GROUP BY, Foreign Keys, JOIN, one-to-many, many-to-many relationships model to answer complex analytical questions, and performance indexing.
+**create-animals-table**  uses relational database to create the initial data structure for a vet clinic and created a table to store animals' information, insert some data into it, and query it whilst applying knowledge of aggregate functions and GROUP BY, Foreign Keys, JOIN, one-to-many, many-to-many relationships model to answer complex analytical questions, performance indexing and include a schema diagram.
 
 ## 🛠 Built With <a name="built-with"></a>
 
